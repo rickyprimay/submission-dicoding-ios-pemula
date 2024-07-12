@@ -10,6 +10,8 @@
 		EA9780FE2C41D033006B0833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9780FD2C41D033006B0833 /* Assets.xcassets */; };
 		EA9781022C41D396006B0833 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9781012C41D396006B0833 /* Launch Screen.storyboard */; };
 		EA9781032C41DA37006B0833 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7203D2C411F860023A1C5 /* ContentView.swift */; };
+		EA9781092C41DE3C006B0833 /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9781082C41DE3B006B0833 /* detail.png */; };
+		EA97810B2C41DE4B006B0833 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = EA97810A2C41DE4B006B0833 /* profile.png */; };
 		EAF7203C2C411F860023A1C5 /* learn_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7203B2C411F860023A1C5 /* learn_iOSApp.swift */; };
 		EAF7204E2C4122A70023A1C5 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7204D2C4122A70023A1C5 /* PlayerModel.swift */; };
 		EAF720542C4134CD0023A1C5 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF720532C4134CC0023A1C5 /* PlayerRow.swift */; };
@@ -24,6 +26,10 @@
 		EA9780FD2C41D033006B0833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA9781002C41D206006B0833 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EA9781012C41D396006B0833 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		EA9781072C41DE09006B0833 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = ../../../../../../../../var/folders/b8/5mb145nj6cz_15vvnmwt9st40000gn/T/home.png; sourceTree = "<group>"; };
+		EA9781082C41DE3B006B0833 /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail.png; path = ../../../../../../../../var/folders/b8/5mb145nj6cz_15vvnmwt9st40000gn/T/detail.png; sourceTree = "<group>"; };
+		EA97810A2C41DE4B006B0833 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = ../../../../../../../../var/folders/b8/5mb145nj6cz_15vvnmwt9st40000gn/T/profile.png; sourceTree = "<group>"; };
+		EA97810C2C41DEA7006B0833 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EAF720382C411F860023A1C5 /* learn-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learn-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF7203B2C411F860023A1C5 /* learn_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn_iOSApp.swift; sourceTree = "<group>"; };
 		EAF7203D2C411F860023A1C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,9 +62,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EA9781062C41DE01006B0833 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				EA9781072C41DE09006B0833 /* home.png */,
+				EA9781082C41DE3B006B0833 /* detail.png */,
+				EA97810A2C41DE4B006B0833 /* profile.png */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		EAF7202F2C411F860023A1C5 = {
 			isa = PBXGroup;
 			children = (
+				EA97810C2C41DEA7006B0833 /* README.md */,
 				EAF7203A2C411F860023A1C5 /* learn-iOS */,
 				EAF720392C411F860023A1C5 /* Products */,
 			);
@@ -75,6 +92,7 @@
 		EAF7203A2C411F860023A1C5 /* learn-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				EA9781062C41DE01006B0833 /* Screenshot */,
 				EAF720642C4179960023A1C5 /* Info.plist */,
 				EAF720502C4134720023A1C5 /* View */,
 				EAF7204F2C41345C0023A1C5 /* Model */,
@@ -175,7 +193,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA9781022C41D396006B0833 /* Launch Screen.storyboard in Resources */,
+				EA97810B2C41DE4B006B0833 /* profile.png in Resources */,
 				EA9780FE2C41D033006B0833 /* Assets.xcassets in Resources */,
+				EA9781092C41DE3C006B0833 /* detail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +366,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rickyprimay.FlappyBird;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rickyprimay.learn-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -378,7 +398,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rickyprimay.FlappyBird;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rickyprimay.learn-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
