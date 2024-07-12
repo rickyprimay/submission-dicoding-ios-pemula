@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA9780FE2C41D033006B0833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9780FD2C41D033006B0833 /* Assets.xcassets */; };
+		EA9781022C41D396006B0833 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9781012C41D396006B0833 /* Launch Screen.storyboard */; };
+		EA9781032C41DA37006B0833 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7203D2C411F860023A1C5 /* ContentView.swift */; };
 		EAF7203C2C411F860023A1C5 /* learn_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7203B2C411F860023A1C5 /* learn_iOSApp.swift */; };
-		EAF7203E2C411F860023A1C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7203D2C411F860023A1C5 /* ContentView.swift */; };
-		EAF720402C411F880023A1C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF7203F2C411F880023A1C5 /* Assets.xcassets */; };
-		EAF720432C411F880023A1C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF720422C411F880023A1C5 /* Preview Assets.xcassets */; };
+		EAF7204E2C4122A70023A1C5 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7204D2C4122A70023A1C5 /* PlayerModel.swift */; };
+		EAF720542C4134CD0023A1C5 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF720532C4134CC0023A1C5 /* PlayerRow.swift */; };
+		EAF720562C4135A70023A1C5 /* StarRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF720552C4135A60023A1C5 /* StarRating.swift */; };
+		EAF720582C413B6B0023A1C5 /* PlayerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF720572C413B6B0023A1C5 /* PlayerDetail.swift */; };
+		EAF7205A2C41402E0023A1C5 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF720592C41402E0023A1C5 /* Profile.swift */; };
+		EAF7205D2C4151000023A1C5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7205C2C4151000023A1C5 /* WebView.swift */; };
+		EAF720632C4160580023A1C5 /* FavoritePlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF720622C4160580023A1C5 /* FavoritePlayers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA9780FD2C41D033006B0833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA9781002C41D206006B0833 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA9781012C41D396006B0833 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		EAF720382C411F860023A1C5 /* learn-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learn-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF7203B2C411F860023A1C5 /* learn_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn_iOSApp.swift; sourceTree = "<group>"; };
 		EAF7203D2C411F860023A1C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EAF7203F2C411F880023A1C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EAF720422C411F880023A1C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAF7204D2C4122A70023A1C5 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		EAF720532C4134CC0023A1C5 /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		EAF720552C4135A60023A1C5 /* StarRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRating.swift; sourceTree = "<group>"; };
+		EAF720572C413B6B0023A1C5 /* PlayerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetail.swift; sourceTree = "<group>"; };
+		EAF720592C41402E0023A1C5 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		EAF7205C2C4151000023A1C5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		EAF720622C4160580023A1C5 /* FavoritePlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePlayers.swift; sourceTree = "<group>"; };
+		EAF720642C4179960023A1C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA9780FF2C41D1FC006B0833 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA9781002C41D206006B0833 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		EAF7202F2C411F860023A1C5 = {
 			isa = PBXGroup;
 			children = (
@@ -51,20 +75,45 @@
 		EAF7203A2C411F860023A1C5 /* learn-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				EAF720642C4179960023A1C5 /* Info.plist */,
+				EAF720502C4134720023A1C5 /* View */,
+				EAF7204F2C41345C0023A1C5 /* Model */,
 				EAF7203B2C411F860023A1C5 /* learn_iOSApp.swift */,
 				EAF7203D2C411F860023A1C5 /* ContentView.swift */,
-				EAF7203F2C411F880023A1C5 /* Assets.xcassets */,
-				EAF720412C411F880023A1C5 /* Preview Content */,
+				EA9780FD2C41D033006B0833 /* Assets.xcassets */,
+				EA9781012C41D396006B0833 /* Launch Screen.storyboard */,
+				EA9780FF2C41D1FC006B0833 /* Preview Content */,
 			);
 			path = "learn-iOS";
 			sourceTree = "<group>";
 		};
-		EAF720412C411F880023A1C5 /* Preview Content */ = {
+		EAF7204F2C41345C0023A1C5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EAF720422C411F880023A1C5 /* Preview Assets.xcassets */,
+				EAF7204D2C4122A70023A1C5 /* PlayerModel.swift */,
 			);
-			path = "Preview Content";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAF720502C4134720023A1C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EAF7205B2C4150EB0023A1C5 /* components */,
+				EAF720532C4134CC0023A1C5 /* PlayerRow.swift */,
+				EAF720572C413B6B0023A1C5 /* PlayerDetail.swift */,
+				EAF720592C41402E0023A1C5 /* Profile.swift */,
+				EAF720622C4160580023A1C5 /* FavoritePlayers.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EAF7205B2C4150EB0023A1C5 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				EAF720552C4135A60023A1C5 /* StarRating.swift */,
+				EAF7205C2C4151000023A1C5 /* WebView.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +174,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAF720432C411F880023A1C5 /* Preview Assets.xcassets in Resources */,
-				EAF720402C411F880023A1C5 /* Assets.xcassets in Resources */,
+				EA9781022C41D396006B0833 /* Launch Screen.storyboard in Resources */,
+				EA9780FE2C41D033006B0833 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAF7203E2C411F860023A1C5 /* ContentView.swift in Sources */,
+				EAF7204E2C4122A70023A1C5 /* PlayerModel.swift in Sources */,
+				EAF7205D2C4151000023A1C5 /* WebView.swift in Sources */,
+				EAF720562C4135A70023A1C5 /* StarRating.swift in Sources */,
+				EAF720582C413B6B0023A1C5 /* PlayerDetail.swift in Sources */,
+				EAF7205A2C41402E0023A1C5 /* Profile.swift in Sources */,
+				EA9781032C41DA37006B0833 /* ContentView.swift in Sources */,
+				EAF720542C4134CD0023A1C5 /* PlayerRow.swift in Sources */,
+				EAF720632C4160580023A1C5 /* FavoritePlayers.swift in Sources */,
 				EAF7203C2C411F860023A1C5 /* learn_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,6 +236,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -244,6 +301,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -275,17 +333,20 @@
 				DEVELOPMENT_TEAM = BVPC6QX93W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "learn-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rickyprimay.learn-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rickyprimay.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -304,17 +365,20 @@
 				DEVELOPMENT_TEAM = BVPC6QX93W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "learn-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rickyprimay.learn-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rickyprimay.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
